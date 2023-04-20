@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
+    // Write a program you have to make a summation of first and last Digit.
+
     int num, k, div = 1, i, j, rem, f_digit, l_digit;
 
     num = 4587;

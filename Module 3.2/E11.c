@@ -2,6 +2,8 @@
 
 int main()
 {
+    // Write a program to find out the max from given number
+    
     int num, large = 0, rem = 0;
 
     /* get the input from the user */

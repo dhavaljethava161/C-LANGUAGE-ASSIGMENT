@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // Write a program make a summation of given number
     int num, large = 0, rem = 0, total = 0;
 
     printf("Enter value : ");

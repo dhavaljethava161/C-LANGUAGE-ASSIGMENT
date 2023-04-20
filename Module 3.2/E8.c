@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // WAP to print factorial of given number
     int i, sum = 1, n;
 
     printf("Enter value of n: ");

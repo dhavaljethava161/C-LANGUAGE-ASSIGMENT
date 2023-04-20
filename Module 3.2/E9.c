@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int a = 0, b = 1, n = 3, temp;
+    // WAP to print Fibonacci series up to given numbers
+    int a = 0, b = 1, n = 10, temp;
 
     // printf("Enter number: ");
     // scanf("%d", &n);
