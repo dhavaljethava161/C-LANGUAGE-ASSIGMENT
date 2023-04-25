@@ -1,18 +1,26 @@
 #include <stdio.h>
 int main()
 {
-    // WAP to print number in reverse order e.g.: number = 64728 ---> reverse =82746
-
-    int a;
-    for (a = 64728; a <= 82746; a++)
+    int num, count = 0, rem,rev_num;
+    printf("Enter value: ");
+    scanf("%d", &num);
+    rev_num=num;
+    while (num > 0)
     {
-        // sum=sum+a;
-        printf("%d\n", a);
+        num = num / 10;
+        count = count + 1;
     }
-    for (a = 82746; a >= 64728; --a)
+
+    printf("number of digits is %d\n", count);
+
+    for (int i = 0; i <= count; i++)
     {
-        // sum=sum+a;
-        printf("%d\n", a);
+        if (rev_num > 0)
+        {
+            rem = rev_num % 10;
+            printf("  reverse number of %d is %d", rev_num, rem);
+        }
+        rev_num = rev_num / 10;
     }
 
     return 0;
