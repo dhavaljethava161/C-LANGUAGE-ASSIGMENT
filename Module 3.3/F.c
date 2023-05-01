@@ -94,7 +94,7 @@ int main()
             break;
         case 3:
 
-            if (r1 == c2)
+            if (c1 == r2)
             {
                 int array3[i][j];
                 for (i = 0; i < r1; i++)
